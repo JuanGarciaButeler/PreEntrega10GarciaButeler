@@ -1,0 +1,53 @@
+header .div {
+  transition: 0.2s;
+}
+header .div .logo-desktop {
+  height: 70px;
+  width: auto;
+}
+header .nav-links li {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0 20px;
+  list-style: none;
+}
+header .nav-links li a {
+  transition: 0.2s;
+  border-bottom: 1px solid transparent;
+}
+header .buscador {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+header .buscador button {
+  background-color: rgba(0, 218, 69, 0.8549019608);
+  color: rgb(0, 0, 0);
+  width: 80px;
+  border: none;
+  height: 38px;
+}
+header .buscador input {
+  height: 40px;
+  width: 250px;
+  border: none;
+  background-color: #303030;
+  border: 1px solid #000000;
+  padding-left: 15px;
+}
+header .div:hover {
+  transform: scale(1.1);
+}
+header .nav-links li a:hover {
+  border-bottom: 1px solid white;
+}
+header .header {
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
